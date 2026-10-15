@@ -1,11 +1,11 @@
 ##########################
 ## Java
 ##########################
-*.aula
+*.class
 .mtj.tmp/
 *.jar
-*.guerra
-*.orelha
+*.war
+*.ear
 hs_err_pid*
 
 ##########################
@@ -15,33 +15,33 @@ gradlew
 gradlew.bat
 gradle
 .gradle/
-construir/
-configurações.gradle
+build/
+settings.gradle
 .gradletasknamecache
 
 ##########################
 ## IntelliJ
 ##########################
 *.iml
-.ideia/
+.idea/
 *.ipr
 *.iws
-fora/
+out/
 .idea_modules/
 
 ##########################
 ## Eclipse
 ##########################
-.metadados
+.metadata
 .classpath
-.projeto
-.configurações/
+.project
+.settings/
 
 ##########################
 ## NetBeans
 ##########################
-nbproject/privado/
-construir/
+nbproject/private/
+build/
 nbbuild/
 dist/
 nbdist/
@@ -50,16 +50,16 @@ nb-configuration.xml
 
 ### Maven ###
 #############
-alvo/
+target/
 pom.xml.tag
 pom.xml.releaseBackup
-Backup de versões do arquivo pom.xml
+pom.xml.versionsBackup
 pom.xml.next
-release.propriedades
-pom.xml com dependências reduzidas
+release.properties
+dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.ja
 
-#####Relatórios#####
+#####Relatorios#####
 allure-results/*
