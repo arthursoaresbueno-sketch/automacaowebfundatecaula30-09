@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package Framework;
 
 import Framework.Browser.DriverManager;
@@ -31,37 +31,3 @@ public class TestBase extends DriverManager {
 
 
 }
-=======
-package Framework;
-
-import Framework.Browser.DriverManager;
-import Framework.Browser.TypeBrowser;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.WebDriver;
-
-public class TestBase extends DriverManager {
-
-    private static WebDriver driver;
-    private static String URL = "https://www.saucedemo.com/";
-
-    public static WebDriver getDriverManager (){
-
-        driver = getDriver(TypeBrowser.CHROME);
-        return driver;
-    }
-
-    @BeforeEach
-    public void setUp(){
-        getDriverManager().get(URL);
-    }
-
-    @AfterEach
-    public void finish(){
-        fecharDriver();
-    }
-
-
-
-}
->>>>>>> d54359a62d34ae1dc574116d7a079229c4d95d72
